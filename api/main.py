@@ -7,7 +7,7 @@ app = FastAPI()
 # Define the allowed origins (You can specify your front-end domains or use '*' for all origins)
 origins = [
     "http://localhost:5173",  # For local development
-    "http://localhost:3000",  # If your front-end is on port 3000 (e.g., React app)
+    "https://clone-movie-gamma.vercel.app/",  # If your front-end is on port 3000 (e.g., React app)
     "https://api-movie-peach.vercel.app/",  # Replace with your actual production domain
 ]
 
